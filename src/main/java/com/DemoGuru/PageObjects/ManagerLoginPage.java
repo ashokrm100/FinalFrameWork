@@ -26,6 +26,10 @@ public class ManagerLoginPage extends BaseTest {
 	@CacheLookup
 	WebElement reset;
 	
+	@FindBy(xpath="//a[contains(text(),'New Customer')]")
+	@CacheLookup
+	WebElement addCustomer;
+	
 	public ManagerLoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -47,6 +51,12 @@ public class ManagerLoginPage extends BaseTest {
 	{
 		submit.click();
 		return submit;
+	}
+	
+	public NewCustomerPage getLink()
+	{
+		addCustomer.click();
+		return new NewCustomerPage(driver);
 	}
 
 	

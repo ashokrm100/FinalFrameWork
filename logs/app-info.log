@@ -1,0 +1,49 @@
+[INFO ] 2021-06-12 10:46:30.392 [main] Logs - Browser initialized
+[INFO ] 2021-06-12 10:46:30.518 [main] Logs - mngr445777
+[INFO ] 2021-06-12 10:46:30.518 [main] Logs - yrhdki
+[INFO ] 2021-06-12 10:46:30.646 [main] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:46:31.455 [main] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:46:34.013 [main] Logs - Browser initialized
+[INFO ] 2021-06-12 10:46:34.014 [main] Logs - $value*123
+[INFO ] 2021-06-12 10:46:34.014 [main] Logs - 78383Y@
+[INFO ] 2021-06-12 10:46:34.016 [main] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:46:34.212 [main] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:46:37.070 [main] Logs - Browser initialized
+[INFO ] 2021-06-12 10:46:37.071 [main] Logs - mngr330489
+[INFO ] 2021-06-12 10:46:37.172 [main] Logs - ugybunU
+[INFO ] 2021-06-12 10:46:37.177 [main] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:46:37.303 [main] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:53:12.097 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-12 10:53:12.189 [TestNG-test=Test-1] Logs - Second Test Started
+[INFO ] 2021-06-12 10:53:12.631 [TestNG-test=Test-1] Logs - Manager name sent
+[INFO ] 2021-06-12 10:53:15.960 [TestNG-test=Test-1] Logs - Manager pwd sent
+[INFO ] 2021-06-12 10:53:26.621 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 10:53:26.622 [TestNG-test=Test-2] Logs - Browser initialized
+[INFO ] 2021-06-12 10:53:26.622 [TestNG-test=Test-2] Logs - mngr445777
+[INFO ] 2021-06-12 10:53:26.623 [TestNG-test=Test-2] Logs - yrhdki
+[INFO ] 2021-06-12 10:53:26.624 [TestNG-test=Test-2] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:53:26.740 [TestNG-test=Test-2] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:53:27.855 [TestNG-test=Test-1] Logs - Sending Customer Name
+[INFO ] 2021-06-12 10:53:30.029 [TestNG-test=Test-1] Logs - Clicked on Gender
+[INFO ] 2021-06-12 10:53:31.833 [TestNG-test=Test-1] Logs - Entered DOB
+[INFO ] 2021-06-12 10:53:32.559 [TestNG-test=Test-1] Logs - Entered Address
+[INFO ] 2021-06-12 10:53:32.560 [TestNG-test=Test-1] Logs - Not able to enter address
+[INFO ] 2021-06-12 10:53:33.015 [TestNG-test=Test-1] Logs - Entered Password
+[INFO ] 2021-06-12 10:53:33.113 [TestNG-test=Test-1] Logs - Entered State
+[INFO ] 2021-06-12 10:53:33.560 [TestNG-test=Test-1] Logs - Entered Mobile
+[INFO ] 2021-06-12 10:53:33.681 [TestNG-test=Test-1] Logs - Entered Mailid
+[INFO ] 2021-06-12 10:53:33.773 [TestNG-test=Test-1] Logs - Entered Pincode
+[INFO ] 2021-06-12 10:53:36.570 [TestNG-test=Test-1] Logs - Clicked on submit
+[INFO ] 2021-06-12 10:53:39.318 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 10:53:39.319 [TestNG-test=Test-2] Logs - Browser initialized
+[INFO ] 2021-06-12 10:53:39.320 [TestNG-test=Test-2] Logs - $value*123
+[INFO ] 2021-06-12 10:53:39.320 [TestNG-test=Test-2] Logs - 78383Y@
+[INFO ] 2021-06-12 10:53:39.322 [TestNG-test=Test-2] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:53:39.472 [TestNG-test=Test-2] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:53:49.803 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 10:53:49.804 [TestNG-test=Test-2] Logs - Browser initialized
+[INFO ] 2021-06-12 10:53:49.804 [TestNG-test=Test-2] Logs - mngr330489
+[INFO ] 2021-06-12 10:53:49.804 [TestNG-test=Test-2] Logs - ugybunU
+[INFO ] 2021-06-12 10:53:49.806 [TestNG-test=Test-2] Logs - Data Provider value send
+[INFO ] 2021-06-12 10:53:50.025 [TestNG-test=Test-2] Logs - Data Provider Password send
+[INFO ] 2021-06-12 10:53:54.153 [main] Logs - ---------getLoginData  Finished----------

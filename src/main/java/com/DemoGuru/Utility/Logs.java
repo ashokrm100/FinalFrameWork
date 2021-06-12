@@ -9,12 +9,12 @@ public class Logs {
 	
 	public static void onStartLog(String testname)
 	{
-		Log.info("--------- Test Started ----------"+testname);
+		Log.info("---------"+ testname +"  Started" +"----------");
 	}
 	
 	public static void onFinishLog(String testname)
 	{
-		Log.info("--------- Test Completed ----------"+testname);
+		Log.info("---------"+ testname +"  Finished" +"----------");
 	}
 	
 	public static void info(String message)

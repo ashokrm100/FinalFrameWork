@@ -3,6 +3,7 @@ package com.DemoGuru.TestCases;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.Test;
 
 
@@ -17,11 +18,11 @@ public class ManagerLoginTest extends BaseTest {
 	
 	//Logger Log = LogManager.getLogger(ManagerLoginTest.class.getName());
 	//String name = Log.getName();
-	
+	//ITestResult result;
 	@Test
 	public void LoginPageTest()
 	{
-		Logs.onStartLog("LoginPageTest");
+		//Logs.onStartLog(result.getMethod().getMethodName());
 		Logs.info("Browser Initialized");
 		mp = new ManagerLoginPage(driver);
 		Logs.info("Url is Opened");
@@ -31,8 +32,8 @@ public class ManagerLoginTest extends BaseTest {
 		Logs.info("Password is send");
 		mp.getSubmit();
 		Logs.info("Submitted");
-		Logs.onFinishLog("LoginPageTest");
-		String expected ="Guru99 Bank Manager HomePage";
+		//Logs.onFinishLog(result.getName());
+		String expected ="Guru99 Bank Manager HomePage123";
 		System.out.println(driver.getTitle());
 		if(driver.getTitle().equals(expected))
 		{

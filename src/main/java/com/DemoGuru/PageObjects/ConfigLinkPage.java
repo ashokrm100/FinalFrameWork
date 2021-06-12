@@ -24,7 +24,7 @@ public class ConfigLinkPage {
 			} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
 		}
 		
 	}
@@ -32,21 +32,21 @@ public class ConfigLinkPage {
 	public String getUserName()
 	{
 		user = prop.getProperty("username");
-		System.out.println(user);
+		//System.out.println(user);
 		return user;
 	}
 	
 	public String getPassword()
 	{
 		passd = prop.getProperty("password");
-		System.out.println(passd);
+		//System.out.println(passd);
 		return passd;
 	}
 	
 	public String getUrl()
 	{
 		url1 = prop.getProperty("url");
-		System.out.println(url1);
+		//System.out.println(url1);
 		return url1;
 	}
 	
