@@ -61,7 +61,23 @@ public class AddCustomerTest extends BaseTest {
 		Logs.info("Entered Pincode");
 		np.getSubmit();
 		Logs.info("Clicked on submit");
-		System.out.println(driver.switchTo().alert().getText());
+		boolean val= driver.getPageSource().contains("Customer Registered Successfully!!!");
+		
+		if(val==true)
+		{
+			Assert.assertTrue(true);
+			Logs.info("Customer added successfully");
+		}
+		else 
+		{
+			Assert.assertTrue(false);
+			Logs.info("Failed to add new Customer");
+		}
+
+		
+		
+		
+		/*System.out.println(driver.switchTo().alert().getText());
 		String expected = "please fill all fields";
 		if (expected.equals(driver.switchTo().alert().getText())) {
 			Assert.assertTrue(true);
@@ -70,7 +86,7 @@ public class AddCustomerTest extends BaseTest {
 		} else {
 			Logs.debug("Alert message doesnot match");
 
-		}
+		}*/
 	}
 	
 	public String GeneratePincode()

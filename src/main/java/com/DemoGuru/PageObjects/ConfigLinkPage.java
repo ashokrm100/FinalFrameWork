@@ -10,7 +10,7 @@ public class ConfigLinkPage {
 	public String user;
 	public String passd;
 	public String url1;
-	
+	public String browse;
 	public ConfigLinkPage()
 	{
 		
@@ -48,6 +48,12 @@ public class ConfigLinkPage {
 		url1 = prop.getProperty("url");
 		//System.out.println(url1);
 		return url1;
+	}
+	
+	public String getBrowser()
+	{
+	 browse = System.getProperty("browser");
+	 return browse;
 	}
 	
 	/*public static void main(String args[])

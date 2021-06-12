@@ -32,3 +32,13 @@
 [INFO ] 2021-06-12 11:48:29.289 [TestNG-test=Test-2] Logs - Data Provider value send
 [INFO ] 2021-06-12 11:48:29.414 [TestNG-test=Test-2] Logs - Data Provider Password send
 [INFO ] 2021-06-12 11:48:34.605 [main] Logs - ---------getLoginData  Finished----------
+[INFO ] 2021-06-12 16:37:42.682 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-12 16:37:59.621 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:37:59.642 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:37:59.705 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:38:00.028 [main] Logs - ---------getLoginData  Finished----------
+[INFO ] 2021-06-12 16:44:50.067 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-12 16:45:55.743 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:45:56.414 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:45:57.050 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
+[INFO ] 2021-06-12 16:46:00.060 [main] Logs - ---------getLoginData  Finished----------

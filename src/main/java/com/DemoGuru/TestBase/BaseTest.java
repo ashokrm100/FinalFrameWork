@@ -29,13 +29,16 @@ public class BaseTest {
 	public String username = cp.getUserName();
 	public String password = cp.getPassword();
 	public String url = cp.getUrl();
+	public String browser = cp.getBrowser();
 	public WebDriver driver;
+	//public String browser = System.getproperty("browser");
 	//Logger Log = LogManager.getLogger(BaseTest.class.getName());
 	
 	
-	@Parameters("browser")
+	//@Parameters("browser")
 	@BeforeClass
-	public void setup(@Optional("chrome") String browser)
+	//public void setup(@Optional("chrome") String browser)
+	public void setup()
 	{
 		if(browser.equals("chrome"))
 		{

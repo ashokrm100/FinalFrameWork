@@ -1,5 +1,8 @@
+com\DemoGuru\Reports\ExtentReport.class
+com\DemoGuru\Utility\ExcelUtility.class
 com\DemoGuru\PageObjects\ManagerLoginPage.class
 com\DemoGuru\TestBase\BaseTest.class
+com\DemoGuru\PageObjects\NewCustomerPage.class
 com\DemoGuru\Utility\ItestListener.class
 com\DemoGuru\Utility\WebeventListener.class
 com\DemoGuru\PageObjects\ConfigLinkPage.class
