@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel = "classes">
+<suite name="Suite" >
 <listeners>
   <listener class-name="com.DemoGuru.Utility.ItestListener"/>
   </listeners>
   <test thread-count="5" name="Test">
-    <parameter name = "browser" value ="chrome"/>
+    <parameter name = "browser" value ="IE"/>
      <classes>
      <!-- <class name="com.DemoGuru.TestCases.ManagerLoginTest"/> -->
       <class name="com.DemoGuru.TestCases.AddCustomerTest"/>
-      <class name ="com.DemoGuru.TestCases.TC_002_LoginData"/>
+     <!--  <class name ="com.DemoGuru.TestCases.TC_002_LoginData"/>-->
      <!-- <class name="com.DemoGuru.TestBase.BaseTest"/> -->
     </classes>
   </test> <!-- Test -->
