@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DemoGuru.TestCases.TC_002_LoginData">
+      <class name="com.DemoGuru.TestCases.AddCustomerTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="getLoginData" invocation-numbers="0 1"/>
+          <include name="getScreenShot"/>
+          <include name="sendCustomerName"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.DemoGuru.TestCases.TC_002_LoginData -->
+      </class> <!-- com.DemoGuru.TestCases.AddCustomerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

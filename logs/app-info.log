@@ -1,44 +1,91 @@
-[INFO ] 2021-06-12 11:47:59.159 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
-[INFO ] 2021-06-12 11:47:59.291 [TestNG-test=Test-1] Logs - Second Test Started
-[INFO ] 2021-06-12 11:47:59.749 [TestNG-test=Test-1] Logs - Manager name sent
-[INFO ] 2021-06-12 11:48:01.724 [TestNG-test=Test-1] Logs - Manager pwd sent
-[INFO ] 2021-06-12 11:48:12.523 [TestNG-test=Test-1] Logs - Sending Customer Name
-[INFO ] 2021-06-12 11:48:12.708 [TestNG-test=Test-1] Logs - Clicked on Gender
-[INFO ] 2021-06-12 11:48:13.555 [TestNG-test=Test-1] Logs - Entered DOB
-[INFO ] 2021-06-12 11:48:13.848 [TestNG-test=Test-1] Logs - Entered Address
-[INFO ] 2021-06-12 11:48:13.849 [TestNG-test=Test-1] Logs - Not able to enter address
-[INFO ] 2021-06-12 11:48:14.052 [TestNG-test=Test-1] Logs - Entered Password
-[INFO ] 2021-06-12 11:48:14.169 [TestNG-test=Test-1] Logs - Entered State
-[INFO ] 2021-06-12 11:48:14.601 [TestNG-test=Test-1] Logs - Entered Mobile
-[INFO ] 2021-06-12 11:48:14.737 [TestNG-test=Test-1] Logs - Entered Mailid
-[INFO ] 2021-06-12 11:48:14.861 [TestNG-test=Test-1] Logs - Entered Pincode
-[INFO ] 2021-06-12 11:48:16.872 [TestNG-test=Test-1] Logs - Clicked on submit
-[INFO ] 2021-06-12 11:48:18.649 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 11:48:18.651 [TestNG-test=Test-2] Logs - Browser initialized
-[INFO ] 2021-06-12 11:48:18.652 [TestNG-test=Test-2] Logs - mngr445777
-[INFO ] 2021-06-12 11:48:18.653 [TestNG-test=Test-2] Logs - yrhdki
-[INFO ] 2021-06-12 11:48:18.655 [TestNG-test=Test-2] Logs - Data Provider value send
-[INFO ] 2021-06-12 11:48:18.828 [TestNG-test=Test-2] Logs - Data Provider Password send
-[INFO ] 2021-06-12 11:48:25.338 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 11:48:25.340 [TestNG-test=Test-2] Logs - Browser initialized
-[INFO ] 2021-06-12 11:48:25.340 [TestNG-test=Test-2] Logs - $value*123
-[INFO ] 2021-06-12 11:48:25.341 [TestNG-test=Test-2] Logs - 78383Y@
-[INFO ] 2021-06-12 11:48:25.344 [TestNG-test=Test-2] Logs - Data Provider value send
-[INFO ] 2021-06-12 11:48:25.466 [TestNG-test=Test-2] Logs - Data Provider Password send
-[INFO ] 2021-06-12 11:48:29.286 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 11:48:29.287 [TestNG-test=Test-2] Logs - Browser initialized
-[INFO ] 2021-06-12 11:48:29.287 [TestNG-test=Test-2] Logs - mngr330489
-[INFO ] 2021-06-12 11:48:29.287 [TestNG-test=Test-2] Logs - ugybunU
-[INFO ] 2021-06-12 11:48:29.289 [TestNG-test=Test-2] Logs - Data Provider value send
-[INFO ] 2021-06-12 11:48:29.414 [TestNG-test=Test-2] Logs - Data Provider Password send
-[INFO ] 2021-06-12 11:48:34.605 [main] Logs - ---------getLoginData  Finished----------
-[INFO ] 2021-06-12 16:37:42.682 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
-[INFO ] 2021-06-12 16:37:59.621 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:37:59.642 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:37:59.705 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:38:00.028 [main] Logs - ---------getLoginData  Finished----------
-[INFO ] 2021-06-12 16:44:50.067 [TestNG-test=Test-1] Logs - ---------sendCustomerName  Started----------
-[INFO ] 2021-06-12 16:45:55.743 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:45:56.414 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:45:57.050 [TestNG-test=Test-2] Logs - ---------getLoginData  Started----------
-[INFO ] 2021-06-12 16:46:00.060 [main] Logs - ---------getLoginData  Finished----------
+[INFO ] 2021-06-15 07:55:21.366 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 07:55:21.483 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 07:55:21.600 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 07:55:22.245 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 07:55:31.196 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 07:55:32.320 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 07:55:43.421 [main] Logs - Entered DOB
+[INFO ] 2021-06-15 07:55:45.473 [main] Logs - Entered Address
+[INFO ] 2021-06-15 07:55:47.310 [main] Logs - Entered Password
+[INFO ] 2021-06-15 07:55:48.591 [main] Logs - Entered State
+[INFO ] 2021-06-15 07:55:49.955 [main] Logs - Entered Mobile
+[INFO ] 2021-06-15 07:55:51.734 [main] Logs - Entered Mailid
+[INFO ] 2021-06-15 07:55:52.803 [main] Logs - Entered Pincode
+[INFO ] 2021-06-15 07:55:54.970 [main] Logs - Clicked on submit
+[INFO ] 2021-06-15 07:55:56.143 [main] Logs - ---------sendCustomerName  Finished----------
+[INFO ] 2021-06-15 07:57:45.258 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 07:57:45.261 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 07:57:45.290 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 07:57:45.822 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 07:57:54.167 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 07:57:54.694 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 07:58:05.896 [main] Logs - Entered DOB
+[INFO ] 2021-06-15 07:58:09.212 [main] Logs - Entered Address
+[INFO ] 2021-06-15 07:58:10.653 [main] Logs - Entered Password
+[INFO ] 2021-06-15 07:58:11.176 [main] Logs - Entered State
+[INFO ] 2021-06-15 07:58:13.978 [main] Logs - Entered Mobile
+[INFO ] 2021-06-15 07:58:15.635 [main] Logs - Entered Mailid
+[INFO ] 2021-06-15 07:58:16.485 [main] Logs - Entered Pincode
+[INFO ] 2021-06-15 07:58:18.449 [main] Logs - Clicked on submit
+[INFO ] 2021-06-15 07:58:20.829 [main] Logs - ---------sendCustomerName  Finished----------
+[INFO ] 2021-06-15 08:01:48.077 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 08:01:48.107 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 08:01:50.272 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 08:01:58.444 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 08:01:58.660 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 08:02:32.601 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 08:02:32.606 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 08:02:32.654 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 08:02:34.213 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 08:02:44.317 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 08:02:45.044 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 08:02:47.132 [main] Logs - ---------sendCustomerName  Finished----------
+[INFO ] 2021-06-15 08:12:31.899 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 08:12:32.354 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 08:12:33.009 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 08:12:36.221 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 08:12:46.675 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 08:12:48.191 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 08:12:59.135 [main] Logs - Entered DOB
+[INFO ] 2021-06-15 08:13:01.034 [main] Logs - Entered Address
+[INFO ] 2021-06-15 08:13:02.621 [main] Logs - Entered Password
+[INFO ] 2021-06-15 08:13:04.071 [main] Logs - Entered State
+[INFO ] 2021-06-15 08:13:06.746 [main] Logs - Entered Mobile
+[INFO ] 2021-06-15 08:13:08.362 [main] Logs - Entered Mailid
+[INFO ] 2021-06-15 08:13:09.763 [main] Logs - Entered Pincode
+[INFO ] 2021-06-15 08:13:13.082 [main] Logs - Clicked on submit
+[INFO ] 2021-06-15 08:13:15.366 [main] Logs - Customer added successfully
+[INFO ] 2021-06-15 08:13:15.494 [main] Logs - ---------sendCustomerName  Finished----------
+[INFO ] 2021-06-15 10:36:21.715 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 10:36:21.850 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 10:37:41.986 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 10:37:41.991 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 10:37:42.056 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 10:37:53.698 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 10:38:05.215 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 10:38:05.753 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 10:38:15.020 [main] Logs - Entered DOB
+[INFO ] 2021-06-15 10:38:22.459 [main] Logs - Entered Address
+[INFO ] 2021-06-15 10:38:23.370 [main] Logs - Entered Password
+[INFO ] 2021-06-15 10:38:24.991 [main] Logs - Entered State
+[INFO ] 2021-06-15 10:38:26.042 [main] Logs - Entered Mobile
+[INFO ] 2021-06-15 10:38:27.051 [main] Logs - Entered Mailid
+[INFO ] 2021-06-15 10:38:27.554 [main] Logs - Entered Pincode
+[INFO ] 2021-06-15 10:38:30.932 [main] Logs - Clicked on submit
+[INFO ] 2021-06-15 10:38:33.329 [main] Logs - Customer added successfully
+[INFO ] 2021-06-15 10:38:34.481 [main] Logs - ---------sendCustomerName  Finished----------
+[INFO ] 2021-06-15 10:42:00.851 [main] Logs - ---------sendCustomerName  Started----------
+[INFO ] 2021-06-15 10:42:00.856 [main] Logs - Second Test Started
+[INFO ] 2021-06-15 10:42:01.008 [main] Logs - Manager name sent
+[INFO ] 2021-06-15 10:42:05.170 [main] Logs - Manager pwd sent
+[INFO ] 2021-06-15 10:42:13.190 [main] Logs - Sending Customer Name
+[INFO ] 2021-06-15 10:42:13.746 [main] Logs - Clicked on Gender
+[INFO ] 2021-06-15 10:42:22.664 [main] Logs - Entered DOB
+[INFO ] 2021-06-15 10:42:23.423 [main] Logs - Entered Address
+[INFO ] 2021-06-15 10:42:23.972 [main] Logs - Entered Password
+[INFO ] 2021-06-15 10:42:24.665 [main] Logs - Entered State
+[INFO ] 2021-06-15 10:42:25.827 [main] Logs - Entered Mobile
+[INFO ] 2021-06-15 10:42:26.458 [main] Logs - Entered Mailid
+[INFO ] 2021-06-15 10:42:26.948 [main] Logs - Entered Pincode
+[INFO ] 2021-06-15 10:42:31.586 [main] Logs - Clicked on submit
+[INFO ] 2021-06-15 10:42:35.466 [main] Logs - ---------sendCustomerName  Finished----------

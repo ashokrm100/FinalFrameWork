@@ -76,10 +76,24 @@ public class NewCustomerPage extends BaseTest {
 	}
 	
 	public void getDOB(String day, String month, String Year)
+	//public WebElement getDOB()
 	{
-		dob.sendKeys(day);
-		dob.sendKeys(month);
 		dob.click();
+		dob.sendKeys(day);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		dob.sendKeys(month);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//dob.click();
 		dob.sendKeys(Year);
 	}
 	

@@ -13,9 +13,11 @@ public class ExtentReport {
 	public static ExtentReports getExtentReports()
 	{
 		String path = System.getProperty("user.dir")+"//Reports/kusha.html";
+		String xmlpath= System.getProperty("user.dir")+"\\src\\resources\\extent-config.xml";
 		reporter = new ExtentSparkReporter(path);
-		reporter.config().setDocumentTitle("DemoGuru Manager Login");
-		reporter.config().setReportName("Frame work Design");
+		reporter.loadXMLConfig(xmlpath);
+		//reporter.config().setDocumentTitle("DemoGuru Manager Login");
+		//reporter.config().setReportName("Frame work Design");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Name", "Automation");

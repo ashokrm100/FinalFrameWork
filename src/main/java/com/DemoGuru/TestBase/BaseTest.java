@@ -1,5 +1,6 @@
 package com.DemoGuru.TestBase;
 
+import org.testng.annotations.AfterMethod;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -15,7 +16,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 
 import org.testng.annotations.BeforeClass;
-
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import com.DemoGuru.PageObjects.ConfigLinkPage;
 import com.DemoGuru.Utility.TimeoutsUtility;
@@ -28,13 +30,14 @@ public class BaseTest {
 	public String url = cp.getUrl();
 	public String browser = cp.getBrowser();
 	public WebDriver driver;
+	public String browserval;
 	//public String browser = System.getproperty("browser");
 	//Logger Log = LogManager.getLogger(BaseTest.class.getName());
 	
 	
-	//@Parameters("browser")
+	@Parameters("browser")
 	@BeforeClass
-	//public void setup(@Optional("chrome") String browser)
+	//public String setup(@Optional("chrome") String browser)
 	public void setup()
 	{
 		if(browser.equals("chrome"))
@@ -47,7 +50,7 @@ public class BaseTest {
 			System.setProperty("webdriver.gecko.driver","E://firefox//geckodriver.exe");
 			DesiredCapabilities ffCapabilities = DesiredCapabilities.firefox();
 			ffCapabilities.setCapability("marionette",true);
-			WebDriver driver = new FirefoxDriver(ffCapabilities);
+			driver = new FirefoxDriver(ffCapabilities);
 			
 		}
 		else if(browser.equals("IE"))
@@ -55,20 +58,23 @@ public class BaseTest {
 			System.setProperty("webdriver.ie.driver","E://IEDRIVER//IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		}
+		browserval=browser;
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(TimeoutsUtility.Timeouts, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(TimeoutsUtility.implicitywait, TimeUnit.SECONDS);
-		
+		//return browser;
 	}
 	
-	@AfterClass
+	
+	@AfterMethod
+	/*@AfterClass
 	
 	public void tearDown()
 	{
 		driver.quit();
-	}
+	}*/
 	
 	public String getScreenShot(String methodName, WebDriver driver)
 	{
